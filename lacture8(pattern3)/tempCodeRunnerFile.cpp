@@ -52,35 +52,9 @@ Third Pattern: Take an input n from the user, and create a pattern like below, f
        5 4 3
    5 4 3 2 
 5 4 3 2 1
-  int i,j,k;
-
-  for(i=1; i<=5; i++){
-
-    for(j=1; j<=5-i; j++){
-      cout<<' ';
-    }
-    for(k=5; k>5-i; k--){
-      // char a = 'a'+k-1;
-      cout<<k;
-    }
-
-      // cout<<' ';
-    cout<<endl;
-  }
  */
 int i,j,k;
+  
 for(i=1; i<=5; i++){
-
   for(j=1; j<=5-i; j++){
-    cout<<" ";
-  }
-  for(k=5; k>5-i; k--){
-    char a='a'+k-1;
-    cout<<a;
-  }
-  cout<<endl;
-}
-
-
-}
-
+    cout<<'-';
