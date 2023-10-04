@@ -91,19 +91,46 @@ int main(){
     //     }
     //     cout<<endl;
     // }
-
+    /*
+     1 
+    2 1
+   3 2 1
+  4 3 2 1
+ 5 4 3 2 1
+ 5 4 3 2 1
+  5 4 3 2
+   5 4 3
+    5 4
+     5
     int i,j,n;
-    cin>>n;
+    // cin>>n;
 
     for(i=1; i<=5; i++){
         //space
-        for(j=1; j<=i-1; j++){
-            cout<<"-";
+        for(j=5; j>=i; j--){
+            cout<<" ";
         }
-        // star (*)
-        for(j=i; j<=n*2-i; j++){
-            cout<<j;
+        
+        for(j=i; j>=1; j--){
+            cout<<"*"<<" ";
+        }
+                            // for(j=1; j<=i-1; j++){
+                            //     cout<<"-";
+                            // }
+                            // // star (*)
+                            // for(j=i; j<=n*2-i; j++){
+                            //     cout<<j;
+                            // }
+        cout<<endl;
+    }
+    for(i=1; i<=5; i++){
+        for(j=1; j<=i; j++){
+            cout<<" ";
+        }
+        for(j=5; j>=i; j--){
+            cout<<"*"<<" ";
         }
         cout<<endl;
     }
+    */
    }
